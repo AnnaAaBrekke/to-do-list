@@ -28,7 +28,7 @@ function addTask() {
 const addBtn = document.getElementById('add-task-btn');
 addBtn.addEventListener('click', addTask);
 
-// Further: style
+// Further: add icons instead of text (delete)
 // Further: create tests (jest and cypress)
 // Further: save to local storage
 // Further: login to see your personal to do list and then save to ur user
