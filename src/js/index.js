@@ -29,6 +29,8 @@ const addBtn = document.getElementById('add-task-btn');
 addBtn.addEventListener('click', addTask);
 
 // Further: add icons instead of text (delete)
+// Further: create branches for next steps
+// Further: add actions to workflow with pages
 // Further: create tests (jest and cypress)
 // Further: save to local storage
-// Further: login to see your personal to do list and then save to ur user
+// Further: login to see your personal to do list and then save to ur use
