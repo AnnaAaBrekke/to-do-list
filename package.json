@@ -1,0 +1,26 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Creating a to do list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaAaBrekke/to-do-list.git"
+  },
+  "keywords": [
+    "JS",
+    "HTML",
+    "CSS",
+    "todo",
+    "list"
+  ],
+  "author": "Anna Aasprong Brekke <annabrekke98@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnnaAaBrekke/to-do-list/issues"
+  },
+  "homepage": "https://github.com/AnnaAaBrekke/to-do-list#readme"
+}
