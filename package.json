@@ -4,7 +4,9 @@
   "description": "Creating a to do list.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint '**/*.js'",
+    "format": "prettier --write '**/*.{js,json,css,md}'"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/AnnaAaBrekke/to-do-list/issues"
   },
-  "homepage": "https://github.com/AnnaAaBrekke/to-do-list#readme"
+  "homepage": "https://github.com/AnnaAaBrekke/to-do-list#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.10.0",
+    "prettier": "^3.3.3"
+  }
 }
