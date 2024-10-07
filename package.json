@@ -4,6 +4,7 @@
   "description": "Creating a to do list.",
   "main": "index.js",
   "scripts": {
+    "start": "node src/js/index.js",
     "test": "jest",
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
