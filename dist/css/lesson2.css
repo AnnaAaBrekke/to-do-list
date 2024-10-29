@@ -1,0 +1,207 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-size: 16px;
+  color: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: #007bff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  background: #f8f9fa;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar-brand {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.navbar .navbar-nav {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+.navbar .navbar-nav li {
+  margin-left: 1.5rem;
+}
+
+.section {
+  padding: 3rem 0;
+  text-align: center;
+}
+.section.bg-light {
+  background: #f8f9fa;
+}
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero {
+  background: #007bff;
+  color: #fff;
+  padding: 4rem 0;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.5rem;
+}
+.hero .btn-primary {
+  background: #fff;
+  color: #007bff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  transition: background 0.3s ease;
+}
+.hero .btn-primary:hover {
+  background: rgb(51, 149.4, 255);
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.service-cards .service-card {
+  text-align: center;
+  max-width: 300px;
+}
+.service-cards .service-card h5 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.service-cards .service-card p {
+  font-size: 0.9rem;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.contact-form input {
+  padding: 0.5rem;
+  font-size: 16px;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact-form .btn-primary {
+  margin-top: 1.5rem;
+  background: #007bff;
+  color: #fff;
+  padding: 0.75rem;
+  font-size: 1.25rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.contact-form .btn-primary:hover {
+  background: rgb(0, 98.4, 204);
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+.footer p {
+  margin: 0;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.mt-1 {
+  margin-top: 0.25rem !important;
+}
+
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.pt-1 {
+  padding-top: 0.25rem !important;
+}
+
+.pt-2 {
+  padding-top: 0.5rem !important;
+}
+
+.pt-3 {
+  padding-top: 1rem !important;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem !important;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem !important;
+}
+
+.pb-3 {
+  padding-bottom: 1rem !important;
+}
+
+/*# sourceMappingURL=lesson2.css.map */

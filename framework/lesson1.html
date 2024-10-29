@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Landing Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header and Navigation -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">My Project</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#register">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="jumbotron text-center bg-primary text-white mb-0" id="hero">
+      <div class="container">
+        <h1 class="display-4">Welcome to My Project</h1>
+        <p class="lead">An innovative solution to make your life easier.</p>
+        <a href="#register" class="btn btn-light btn-lg mt-3">Register Now</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="container py-5" id="about">
+      <h2 class="text-center">About</h2>
+      <p class="text-center">
+        Learn more about our project and how it can benefit you.
+      </p>
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Mission</h5>
+          <p>Our mission is to improve daily life through technology.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Vision</h5>
+          <p>We envision a world where technology enhances well-being.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Values</h5>
+          <p>Innovation, accessibility, and user-centered design.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-light py-5" id="features">
+      <div class="container">
+        <h2 class="text-center">Features</h2>
+        <p class="text-center">
+          Our project offers a range of exciting features.
+        </p>
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Feature 1</h5>
+            <p>Discover powerful functionality to streamline your tasks.</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Feature 2</h5>
+            <p>Enjoy a seamless, user-friendly experience.</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Feature 3</h5>
+            <p>
+              Benefit from secure, reliable solutions tailored to your needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section class="container py-5" id="register">
+      <h2 class="text-center">Register Your Interest</h2>
+      <p class="text-center">
+        Sign up to stay informed about updates and opportunities.
+      </p>
+      <form class="mx-auto" style="max-width: 600px">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bg-light py-5" id="contact">
+      <div class="container">
+        <h2 class="text-center">Contact Us</h2>
+        <p class="text-center">We would love to hear from you!</p>
+        <div class="text-center">
+          <p>Email: contact@myproject.com</p>
+          <p>Phone: +1 (123) 456-7890</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <p>&copy; 2023 My Project. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

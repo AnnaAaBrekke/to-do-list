@@ -1,4 +1,4 @@
-function addTask() {
+export function addTask() {
   const taskInput = document.getElementById('task-input').value.trim();
 
   if (taskInput !== '') {
@@ -26,11 +26,11 @@ function addTask() {
 }
 
 const addBtn = document.getElementById('add-task-btn');
-addBtn.addEventListener('click', addTask);
+addBtn?.addEventListener('click', addTask);
 
-// Further: add icons instead of text (delete)
-// Further: create branches for next steps
+// Further: create tests (Jest)
+// Further: create test (Cypress)
 // Further: add actions to workflow with pages
-// Further: create tests (jest and cypress)
 // Further: save to local storage
 // Further: login to see your personal to do list and then save to ur use
+// Further: add icons instead of text (delete)
