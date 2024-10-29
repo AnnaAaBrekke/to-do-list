@@ -16,7 +16,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "watch-sass": "sass --watch src/scss:dist/css"
+    "watch-sass": "sass --watch src/scss:dist/css",
+    "watch-lesson2-sass": "sass --watch src/scss/lesson2.scss:dist/css/lesson2.css"
   },
   "jest": {
     "testEnvironment": "jest-environment-jsdom"
