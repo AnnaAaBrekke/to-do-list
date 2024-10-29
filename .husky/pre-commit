@@ -5,4 +5,7 @@
 # npm test
 
 # # Run lint-staged to check and fix staged files
-# npx lint-staged
+# npm run lint 
+
+# Run format
+npm run format
